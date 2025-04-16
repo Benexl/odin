@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/metafates/go-template/app"
+	"github.com/Benexl/odin/app"
 )
 
 func home() string {

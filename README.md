@@ -32,7 +32,7 @@ Press this shiny green button on top
 
 <img width="203" alt="Screenshot 2022-09-30 at 13 37 30" src="https://user-images.githubusercontent.com/62389790/193252456-42b966a7-2679-4868-bf25-d862524733ee.png">
 
-Then you would probably want to rename go mod name from `github.com/metafates/go-template` to something else.
+Then you would probably want to rename go mod name from `github.com/Benexl/odin` to something else.
 To do this you could use your IDE refactor features or run [just](https://github.com/casey/just) target.
 
 ```shell
@@ -45,17 +45,17 @@ This will prompt you to type a new name and will replace every occurence of the 
 
 ### Changing name of the app
 
-Change the value of the constant `Name` at [app/meta.go](https://github.com/metafates/go-template/blob/main/app/meta.go)
+Change the value of the constant `Name` at [app/meta.go](https://github.com/Benexl/odin/blob/main/app/meta.go)
 
 ### Changing config file format from TOML from YAML
 
-Change the value of the constant `ConfigFormat` at [config/init.go](https://github.com/metafates/go-template/blob/main/config/init.go)
+Change the value of the constant `ConfigFormat` at [config/init.go](https://github.com/Benexl/odin/blob/main/config/init.go)
 
 ### Declaring new config fields
 
-Firstly, declare a field key name as a constant inside [key/keys.go](https://github.com/metafates/go-template/blob/main/key/keys.go)
+Firstly, declare a field key name as a constant inside [key/keys.go](https://github.com/Benexl/odin/blob/main/key/keys.go)
 
-Then put them inside [config/default.go](https://github.com/metafates/go-template/blob/0a71f1da1c51415469067edbfbe4cbb90e06ef13/config/default.go#L8:L23) (take a predefined fields for logging as a reference)
+Then put them inside [config/default.go](https://github.com/Benexl/odin/blob/0a71f1da1c51415469067edbfbe4cbb90e06ef13/config/default.go#L8:L23) (take a predefined fields for logging as a reference)
 
 For example
 
@@ -82,4 +82,4 @@ For the example above it would be `viper.GetString(key.EmojiType)`. See [viper](
 
 ## Something is not clear?
 
-Please, [open an issue](https://github.com/metafates/go-template/issues/new) so I could document it
+Please, [open an issue](https://github.com/Benexl/odin/issues/new) so I could document it

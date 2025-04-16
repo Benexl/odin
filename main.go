@@ -2,9 +2,9 @@ package main
 
 import (
 	"github.com/charmbracelet/log"
-	"github.com/metafates/go-template/cmd"
-	"github.com/metafates/go-template/config"
-	"github.com/metafates/go-template/logger"
+	"github.com/Benexl/odin/cmd"
+	"github.com/Benexl/odin/config"
+	"github.com/Benexl/odin/logger"
 	"github.com/samber/lo"
 	"os"
 )

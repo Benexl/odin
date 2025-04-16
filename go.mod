@@ -1,4 +1,4 @@
-module github.com/metafates/go-template
+module github.com/Benexl/odin
 
 go 1.19
 

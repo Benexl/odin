@@ -8,11 +8,11 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/metafates/go-template/app"
+	"github.com/Benexl/odin/app"
 	"github.com/samber/lo"
 	"github.com/spf13/viper"
 
-	"github.com/metafates/go-template/color"
+	"github.com/Benexl/odin/color"
 )
 
 type Field struct {

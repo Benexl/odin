@@ -3,7 +3,7 @@ package where
 import (
 	"strings"
 
-	"github.com/metafates/go-template/app"
+	"github.com/Benexl/odin/app"
 )
 
 // EnvConfigPath is the environment variable name for the config path

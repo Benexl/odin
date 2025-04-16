@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/metafates/go-template/key"
+	"github.com/Benexl/odin/key"
 	"github.com/spf13/viper"
 )
 

@@ -5,8 +5,8 @@ import (
 	"html/template"
 	"runtime"
 
-	"github.com/metafates/go-template/app"
-	"github.com/metafates/go-template/color"
+	"github.com/Benexl/odin/app"
+	"github.com/Benexl/odin/color"
 	"github.com/samber/lo"
 
 	"github.com/spf13/cobra"

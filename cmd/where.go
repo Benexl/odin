@@ -4,9 +4,9 @@ import (
 	"github.com/charmbracelet/lipgloss"
 	"os"
 
-	"github.com/metafates/go-template/app"
-	"github.com/metafates/go-template/color"
-	"github.com/metafates/go-template/where"
+	"github.com/Benexl/odin/app"
+	"github.com/Benexl/odin/color"
+	"github.com/Benexl/odin/where"
 	"github.com/samber/lo"
 	"github.com/spf13/cobra"
 )

@@ -3,9 +3,9 @@ package config
 import (
 	"strings"
 
-	"github.com/metafates/go-template/app"
-	"github.com/metafates/go-template/filesystem"
-	"github.com/metafates/go-template/where"
+	"github.com/Benexl/odin/app"
+	"github.com/Benexl/odin/filesystem"
+	"github.com/Benexl/odin/where"
 	"github.com/spf13/viper"
 )
 

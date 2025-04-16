@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/metafates/go-template/filesystem"
-	"github.com/metafates/go-template/key"
-	"github.com/metafates/go-template/where"
+	"github.com/Benexl/odin/filesystem"
+	"github.com/Benexl/odin/key"
+	"github.com/Benexl/odin/where"
 	"github.com/samber/lo"
 )
 

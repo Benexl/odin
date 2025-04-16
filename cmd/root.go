@@ -3,15 +3,15 @@ package cmd
 import (
 	"fmt"
 	"github.com/charmbracelet/log"
-	"github.com/metafates/go-template/style"
+	"github.com/Benexl/odin/style"
 	"os"
 	"strings"
 
 	cc "github.com/ivanpirog/coloredcobra"
-	"github.com/metafates/go-template/app"
-	"github.com/metafates/go-template/filesystem"
-	"github.com/metafates/go-template/icon"
-	"github.com/metafates/go-template/where"
+	"github.com/Benexl/odin/app"
+	"github.com/Benexl/odin/filesystem"
+	"github.com/Benexl/odin/icon"
+	"github.com/Benexl/odin/where"
 	"github.com/samber/lo"
 	"github.com/spf13/cobra"
 )
